@@ -1,0 +1,7 @@
+name: DennisClasses
+main: dcl.louise.DennisClasses
+version: 1.0
+commands:
+   class:
+      description: class
+      usage: /class
