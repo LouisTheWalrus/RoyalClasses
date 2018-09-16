@@ -22,9 +22,9 @@ import org.bukkit.projectiles.ProjectileSource;
  */
 public class Hunter implements Listener
 {
-  public DennisClasses plugin;
+  public RoyalClasses plugin;
   
-  public Hunter (DennisClasses plugin)
+  public Hunter (RoyalClasses plugin)
   {
       this.plugin = plugin;
   }

@@ -21,10 +21,10 @@ import org.bukkit.potion.PotionEffectType;
  */
 public class Vampire implements Listener
 {
-  public DennisClasses plugin;
+  public RoyalClasses plugin;
   Cooldown cd = new Cooldown(5000);
   
-  public Vampire (DennisClasses plugin)
+  public Vampire (RoyalClasses plugin)
   {
       this.plugin = plugin;
   }

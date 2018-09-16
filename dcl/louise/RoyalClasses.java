@@ -26,7 +26,7 @@ import org.bukkit.event.*;
 import org.bukkit.potion.PotionEffectType;
 
 
-public final class DennisClasses extends JavaPlugin implements Listener
+public final class RoyalClasses extends JavaPlugin implements Listener
 {
     public HashMap<String, String> classMap = new HashMap<>();
     ArrayList<String> classes = new ArrayList<String>();
@@ -101,7 +101,7 @@ public final class DennisClasses extends JavaPlugin implements Listener
                                         displayFile("classinfo.txt", player);
                                         return true;
                                     } catch (IOException ex) {
-                                        Logger.getLogger(DennisClasses.class.getName()).log(Level.SEVERE, null, ex);
+                                        Logger.getLogger(RoyalClasses.class.getName()).log(Level.SEVERE, null, ex);
                                     }
                                 }
                                 else if(args[0].equalsIgnoreCase("reload"))

@@ -131,7 +131,7 @@ public class RD
 
     static boolean PvPDenied(LivingEntity le) 
     {
-            ApplicableRegionSet set = DennisClasses.wg.getRegionManager(le.getWorld()).getApplicableRegions(le.getLocation());
+            ApplicableRegionSet set = RoyalClasses.wg.getRegionManager(le.getWorld()).getApplicableRegions(le.getLocation());
             
                     return set.queryState(null, DefaultFlag.PVP)==StateFlag.State.DENY;
     }
